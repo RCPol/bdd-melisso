@@ -1,12 +1,12 @@
 {
-  "name": "bdd",
-  "description": "bdd",
+  "name": "bdd-melisso",
+  "description": "bdd-melisso",
   "main": "server/server.js",
   "authors": [
     "Allan Koch Veiga <allan.kv@gmail.com>"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/RCPol/bdd",
+  "homepage": "https://github.com/RCPol/bdd-melisso",
   "ignore": [
     "**/.*",
     "node_modules",
