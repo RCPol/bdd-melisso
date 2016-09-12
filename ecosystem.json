@@ -1,13 +1,13 @@
 {
   "apps" : [
     {    
-    "name"        : "bdd",
+    "name"        : "bdd-melisso",
     "script"      : ".",    
     "watch"       : true,    
     "ignore_watch": ["uploads","client","node_modules"],
     "merge_logs"  : true,
     "no_daemon"   : true,
-    "cwd"         : "/var/www/bdd",    
+    "cwd"         : "/var/www/bdd-melisso",    
     "env": {
       "NODE_ENV": "development",
       "AWESOME_SERVICE_API_TOKEN": "xxx"

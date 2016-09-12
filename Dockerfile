@@ -16,12 +16,12 @@ RUN apt-get install build-essential -y && apt-get install imagemagick -y
 # Install PM2
 RUN npm install -g pm2
 
-RUN mkdir -p /var/www/bdd
+RUN mkdir -p /var/www/bdd-melisso
 
 # Define working directory
-WORKDIR /var/www/bdd
+WORKDIR /var/www/bdd-melisso
 
-# ADD . /var/www/bdd
+# ADD . /var/www/bdd-melisso
 
 # Expose port
 EXPOSE 3030
